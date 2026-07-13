@@ -21,46 +21,13 @@
 
 </div>
 
-<!-- ══════════════  STACK — 4 VARIANTES À COMPARER (garde-en une)  ══════════════ -->
+<!-- ─────────────────────────  STACK  ───────────────────────── -->
 
-### `> stack` — Variante A · panneau néon (SVG sur-mesure)
-
-<div align="center">
-<img width="760" src="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/main/assets/stack-panel.svg" alt="Stack — neon panel" />
-</div>
-
-<br/>
-
-### `> stack` — Variante B · skillicons.dev
+### `> stack`
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,sklearn,fastapi,postgres,supabase,docker,git,linux,bash&theme=dark&perline=12" alt="Stack — skill icons" />
+<img width="760" src="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/main/assets/stack-panel.svg" alt="Thibautdqb tech stack" />
 </div>
-
-<br/>
-
-### `> stack` — Variante C · barres de maîtrise
-
-<div align="center">
-
-| | | | |
-|---|---|---|---|
-| **Python** `████████████` | **PyTorch** `██████████░░` | **Pandas** `███████████░` | **OpenCV** `█████████░░░` |
-| **PostgreSQL** `██████████░░` | **Supabase** `█████████░░░` | **FastAPI** `████████░░░░` | **Docker** `████████░░░░` |
-
-</div>
-
-<br/>
-
-### `> stack` — Variante D · séquence terminal
-
-```console
-$ load --stack --all
-[ok] ai/ml    pytorch · transformers · opencv · onnx · cuda
-[ok] data     python · pandas · numpy · postgresql · supabase · fastapi
-[ok] infra    docker · streamlit · git · linux · runpod
-stack ready ▸ 15 modules · always shipping
-```
 
 <div align="center">
 <img width="100%" src="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/main/assets/profile-divider.svg" alt="divider" />
