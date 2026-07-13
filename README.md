@@ -1,133 +1,158 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=THIBAUT%20DE%20QUATREBARBES&fontSize=34&fontColor=00FF9D&fontAlignY=34&desc=AI%20ENGINEER%20%7C%20QUANT%20ANALYST%20%7C%20TRADING%20DESK%20ENERGY&descAlignY=56&descSize=16&animation=twinkling&color=0:020409,20:03140f,45:06281c,70:0aff7f,100:8bffb5" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=145&color=0:0b0f14,28:26113d,58:6f174c,80:ef5b45,100:0b0f14&text=THIBAUT%20DE%20QUATREBARBES&fontColor=ffffff&fontSize=31&fontAlignY=42&desc=AI%20ENGINEER%20%C3%97%20QUANT%20RESEARCH%20%C3%97%20DATA%20SYSTEMS&descAlignY=67&descSize=14" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=1900&pause=700&color=00FF7F&center=true&vCenter=true&multiline=true&width=900&height=120&lines=%24+booting+thibautdqb.exe;load+modules+%3E+AI+%7C+QUANT+%7C+DATA+ENG;inject+alpha+%3E+research%2C+models%2C+pipelines%2C+infra;status+%3E+LIVE+ON+THE+TRADING+DESK" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2400&pause=850&color=6CFF9C&center=true&vCenter=true&width=780&lines=Applied+AI+%E2%86%92+useful+systems;Quant+research+%E2%86%92+measurable+signals;Data+engineering+%E2%86%92+production-ready+pipelines" alt="Animated introduction" />
 
-<br/>
-
-[![GitHub](https://img.shields.io/badge/GITHUB-thibautdqb-000000?style=for-the-badge&logo=github&logoColor=00FF7F&labelColor=000000)](https://github.com/thibautdqb)
-[![Mail](https://img.shields.io/badge/MAIL-thibautdqb%40gmail.com-000000?style=for-the-badge&logo=gmail&logoColor=00FF7F&labelColor=000000)](mailto:thibautdqb@gmail.com)
-[![Views](https://komarev.com/ghpvc/?username=thibautdqb&style=for-the-badge&color=00ff7f&label=PROFILE+SCAN)](https://github.com/thibautdqb)
+[![GitHub](https://img.shields.io/badge/GitHub-Thibautdqb-111820?style=flat-square&logo=github&logoColor=6CFF9C)](https://github.com/Thibautdqb)
+[![Email](https://img.shields.io/badge/Email-thibautdqb%40gmail.com-111820?style=flat-square&logo=gmail&logoColor=ff6b6b)](mailto:thibautdqb@gmail.com)
+[![Website](https://img.shields.io/badge/Build-artdepercevoir.com-111820?style=flat-square&logo=googlechrome&logoColor=c084fc)](https://artdepercevoir.com)
+![Views](https://komarev.com/ghpvc/?username=Thibautdqb&style=flat-square&color=20c997&label=profile+views)
 
 </div>
-
-```text
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  SYSTEM ONLINE                                                               │
-│  PROFILE : THIBAUTDQB                                                        │
-│  MODE    : CYBERPUNK QUANT / TRADING DESK / AI OPS                           │
-│  STATUS  : BUILDING MODELS, SHIPPING SYSTEMS, HUNTING SIGNALS                │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
 
 <table>
 <tr>
 <td width="52%" valign="top">
 
-## `whoami.sys`
+<pre>
+┌─ thibaut.dqb ──────────────────────┐
+│                                    │
+│   DATA  ──►  MODELS  ──►  IMPACT  │
+│     │          │           │       │
+│   clean      reason      ship      │
+│                                    │
+│   AI  ×  QUANT  ×  ENGINEERING     │
+└────────────────────────────────────┘
+</pre>
 
-```python
-thibaut = {
-    "roles": [
-        "AI Engineer",
-        "Quantitative Analyst",
-        "Tech Lead"
-    ],
-    "core": [
-        "Applied Machine Learning",
-        "Quantitative Finance",
-        "Data Engineering",
-        "Production Systems"
-    ],
-    "education": "Double Master's | AI & Big Data + Finance",
-    "motto": "Build fast. Model hard. Ship clean.",
-    "signal": "strong"
-}
-```
+**AI Engineer, Quantitative Analyst & Tech Lead** based in France.
 
-### `focus.exe`
-- 🤖 **Artificial Intelligence** — computer vision, local LLM workflows, applied ML
-- 📈 **Quant Research** — volatility, screening, portfolio analytics, execution monitoring
-- 🏗️ **Data Engineering** — ETL, PostgreSQL, validation layers, automation pipelines
-- ⚡ **Software & Infra** — FastAPI, Docker, CI/CD, dashboards, cloud deployment
+I build systems that move from messy real-world data to models, decisions and production tools.
+
+`Double Master's` **AI & Big Data** + **Finance**  
+`Languages` English C1+ · Spanish B1+
 
 </td>
 <td width="48%" valign="top">
 
-## `current_positions.log`
+### `now()`
 
-### `ESPACE BLANC // AI ENGINEER`
-Designing an **AI-powered patrimonial inventory platform**  
-`Computer Vision` `Local LLMs` `Supabase` `PostgreSQL` `PDF Reporting`
+**Espace Blanc — AI Engineer**  
+Computer vision, local LLM valuation, PostgreSQL/Supabase workflows and automated reporting.
 
-### `ARTDEPERCEVOIR // TECH LEAD`
-Leading **full-stack architecture, production infra and analytics tooling**  
-`Docker` `CI/CD` `Cloudflare R2` `Streamlit` `Scalable stack`
+**artdepercevoir — Tech Lead**  
+Full-stack architecture, Docker/CI/CD infrastructure, Cloudflare R2 and real-time analytics.
 
-### `QUANT LAB // RESEARCH MODE`
-Building engines for **13F tracking**, **volatility regime detection**, **earnings vol analysis**, **P&L monitoring**
+**Quant research lab**  
+Volatility regimes, 13F intelligence, earnings IV vs RV, screening and P&L monitoring.
 
 </td>
 </tr>
 </table>
 
-## `tech_stack.dll`
-
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-020409?style=for-the-badge&logo=python&logoColor=00FF7F)
-![SQL](https://img.shields.io/badge/SQL-020409?style=for-the-badge&logo=postgresql&logoColor=00FF7F)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-020409?style=for-the-badge&logo=postgresql&logoColor=00FF7F)
-![FastAPI](https://img.shields.io/badge/FastAPI-020409?style=for-the-badge&logo=fastapi&logoColor=00FF7F)
-![Docker](https://img.shields.io/badge/Docker-020409?style=for-the-badge&logo=docker&logoColor=00FF7F)
-![Redis](https://img.shields.io/badge/Redis-020409?style=for-the-badge&logo=redis&logoColor=00FF7F)
-![R](https://img.shields.io/badge/R-020409?style=for-the-badge&logo=r&logoColor=00FF7F)
-![VBA](https://img.shields.io/badge/VBA-020409?style=for-the-badge&logo=microsoftexcel&logoColor=00FF7F)
-![Power BI](https://img.shields.io/badge/Power_BI-020409?style=for-the-badge&logo=powerbi&logoColor=00FF7F)
-![Tableau](https://img.shields.io/badge/Tableau-020409?style=for-the-badge&logo=tableau&logoColor=00FF7F)
-![Streamlit](https://img.shields.io/badge/Streamlit-020409?style=for-the-badge&logo=streamlit&logoColor=00FF7F)
-![Bloomberg](https://img.shields.io/badge/Bloomberg-020409?style=for-the-badge&logoColor=00FF7F)
+### `toolbox`
+
+![Python](https://img.shields.io/badge/Python-111820?style=flat-square&logo=python&logoColor=ffd43b)
+![SQL](https://img.shields.io/badge/SQL-111820?style=flat-square&logo=postgresql&logoColor=6CFF9C)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111820?style=flat-square&logo=postgresql&logoColor=60a5fa)
+![FastAPI](https://img.shields.io/badge/FastAPI-111820?style=flat-square&logo=fastapi&logoColor=34d399)
+![Docker](https://img.shields.io/badge/Docker-111820?style=flat-square&logo=docker&logoColor=38bdf8)
+![Redis](https://img.shields.io/badge/Redis-111820?style=flat-square&logo=redis&logoColor=fb7185)
+![Streamlit](https://img.shields.io/badge/Streamlit-111820?style=flat-square&logo=streamlit&logoColor=ff6b6b)
+![Power BI](https://img.shields.io/badge/Power_BI-111820?style=flat-square&logo=powerbi&logoColor=facc15)
+![Bloomberg](https://img.shields.io/badge/Bloomberg-111820?style=flat-square&logoColor=ffffff)
 
 </div>
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-## `mission_history.db`
+### `01 / AI systems`
 
-| Year | Desk | Mission |
-|---|---|---|
-| `2026+` | **Espace Blanc** | AI inventory, vision systems, LLM-driven valuation workflows |
-| `2026+` | **artdepercevoir** | Full-stack architecture, infra, deployment, analytics dashboard |
-| `2025-2026` | **Tiepolo** | Quant tools, vol regime models, 13F tracker, screening engine |
-| `2024` | **Safran Landing Systems** | ETL pipelines, PostgreSQL centralization, Power BI optimization |
-| `2023` | **EuroLeague** | Process automation, competitor analysis, BI support |
+- Computer vision pipelines
+- Local LLM workflows
+- Role-based applications
+- Structured PDF reporting
 
 </td>
-<td width="50%" valign="top">
+<td width="34%" valign="top">
 
-## `alpha_modules/`
+### `02 / Quant research`
+
+- Volatility regime models
+- 13F institutional tracking
+- Earnings volatility analysis
+- Portfolio & execution analytics
+
+</td>
+<td width="33%" valign="top">
+
+### `03 / Data platforms`
+
+- Automated ETL pipelines
+- PostgreSQL architectures
+- Data quality & validation
+- APIs, dashboards and CI/CD
+
+</td>
+</tr>
+</table>
+
+### `experience.log`
 
 ```text
-[01] 13F_TRACKER
-[02] VOLATILITY_REGIME_ENGINE
-[03] EARNINGS_IV_vs_RV_ANALYZER
-[04] QUANT_SCREENING_ENGINE
-[05] POSITION_&_P&L_MONITOR
-[06] EXECUTION_COST_ANALYTICS
-[07] MORNING_MEETING_AUTOMATION
+2026 → now   AI Engineer · Espace Blanc          AI inventory and valuation platform
+2026 → now   Tech Lead · artdepercevoir           Product architecture and infrastructure
+2025 → 2026  Quant Analyst · Tiepolo              Research engines and market-data pipelines
+2024          Data Analyst · Safran                ETL, PostgreSQL and BI optimization
+2023          BI Data Analyst · EuroLeague         Automation and market intelligence
 ```
 
-## `off_market.exe`
-- 🇬🇧 English `C1+`
-- 🇪🇸 Spanish `B1+`
-- 📷 Photography
-- 🏉 Rugby
-- 🏂 Snowboard
-- 🏄 Surf / Kitesurf
-- 🧗 Climbing
+<div align="center">
+
+### `github.signal`
+
+<img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Thibautdqb&theme=github_dark" alt="GitHub profile details" />
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Thibautdqb&show_icons=true&hide_border=true&bg_color=0d1117&title_color=6cff9c&icon_color=c084fc&text_color=c9d1d9&rank_icon=github" alt="GitHub statistics" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Thibautdqb&layout=compact&hide_border=true&bg_color=0d1117&title_color=6cff9c&text_color=c9d1d9&langs_count=6" alt="Top languages" />
+
+<details>
+<summary><strong>open the extended activity feed</strong></summary>
+<br/>
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Thibautdqb&bg_color=0d1117&color=6cff9c&line=c084fc&point=ff7a59&area=true&hide_border=true" alt="Contribution activity graph" />
+</details>
+
+</div>
+
+<table>
+<tr>
+<td width="55%" valign="top">
+
+### `selected modules`
+
+```text
+├── 13f-intelligence-tracker
+├── volatility-regime-engine
+├── earnings-iv-vs-rv-analyzer
+├── portfolio-and-pnl-monitor
+├── execution-cost-dashboard
+└── automated-morning-meeting
+```
+
+</td>
+<td width="45%" valign="top">
+
+### `outside the terminal`
+
+`rugby` · `snowboard` · `surf`  
+`kitesurf` · `climbing` · `photography`
+
+> Build useful things. Measure what matters.
 
 </td>
 </tr>
@@ -135,40 +160,18 @@ Building engines for **13F tracking**, **volatility regime detection**, **earnin
 
 <div align="center">
 
-## `live_dashboard()`
+### `contribution loop`
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=thibautdqb&show_icons=true&hide_border=true&theme=chartreuse-dark&bg_color=00000000&title_color=00ff7f&icon_color=00ff7f&text_color=c8ffd9&ring_color=00ff7f" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thibautdqb&layout=compact&hide_border=true&theme=chartreuse-dark&bg_color=00000000&title_color=00ff7f&text_color=c8ffd9" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/output/github-contribution-grid-snake.svg" />
+  <img alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/output/github-contribution-grid-snake.svg" />
+</picture>
 
 <br/>
 
-<img height="170" src="https://streak-stats.demolab.com?user=thibautdqb&theme=chartreuse-dark&hide_border=true&background=00000000&ring=00FF7F&fire=00FF7F&currStreakLabel=00FF7F" />
+[![Contact](https://img.shields.io/badge/START_A_CONVERSATION-111820?style=for-the-badge&logo=gmail&logoColor=6CFF9C)](mailto:thibautdqb@gmail.com)
 
-<br/>
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=thibautdqb&bg_color=0a0f0d&color=7dffb3&line=00ff7f&point=baffd0&area=true&hide_border=true" />
-
-</div>
-
-## `terminal_feed.sh`
-
-```bash
-> boot research environment
-> fetch market data
-> validate tickers
-> engineer features
-> fit models
-> detect regimes
-> publish dashboards
-> repeat until signal converges
-```
-
-<div align="center">
-
-### `transmission.open()`
-
-[![CONNECT](https://img.shields.io/badge/CONNECT-00FF7F?style=for-the-badge&logo=gmail&logoColor=000000&labelColor=00FF7F&color=00FF7F)](mailto:thibautdqb@gmail.com)
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&animation=twinkling&color=0:8bffb5,25:0aff7f,60:03140f,100:020409" />
+<sub>AI × finance × engineering — built with curiosity and production discipline.</sub>
 
 </div>
