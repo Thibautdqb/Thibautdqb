@@ -1,6 +1,7 @@
+
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=145&color=0:0b0f14,28:26113d,58:6f174c,80:ef5b45,100:0b0f14&text=THIBAUT%20DE%20QUATREBARBES&fontColor=ffffff&fontSize=31&fontAlignY=42&desc=AI%20ENGINEER%20%C3%97%20QUANT%20RESEARCH%20%C3%97%20DATA%20SYSTEMS&descAlignY=67&descSize=14" />
+<img width="100%" src="./assets/thibaut-runner-banner.svg" alt="Thibautdqb animated pixel runner banner" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2400&pause=850&color=6CFF9C&center=true&vCenter=true&width=780&lines=Applied+AI+%E2%86%92+useful+systems;Quant+research+%E2%86%92+measurable+signals;Data+engineering+%E2%86%92+production-ready+pipelines" alt="Animated introduction" />
 
