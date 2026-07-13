@@ -61,12 +61,12 @@
       <animateTransform attributeName="transform" type="translate" values="1320 0;-160 0" dur="11s" repeatCount="indefinite"/>
     </g>
 
-    <!-- headline -->
-    <text x="44" y="92"  fill="#f7f9fc" font-size="26" font-weight="700" letter-spacing="0.5">THIBAUT DE QUATREBARBES</text>
-    <text x="46" y="122" fill="#79f4b0" font-size="13.5" letter-spacing="2.4">APPLIED&#160;AI&#160;&#183;&#160;QUANT&#160;RESEARCH&#160;&#183;&#160;DATA&#160;SYSTEMS</text>
+    <!-- headline (right-aligned) -->
+    <text x="1156" y="92"  text-anchor="end" fill="#f7f9fc" font-size="26" font-weight="700" letter-spacing="0.5">THIBAUT DE QUATREBARBES</text>
+    <text x="1156" y="122" text-anchor="end" fill="#79f4b0" font-size="13.5" letter-spacing="2.4">APPLIED&#160;AI&#160;&#183;&#160;QUANT&#160;RESEARCH&#160;&#183;&#160;DATA&#160;SYSTEMS</text>
     <g font-size="13" fill="#aeb7c4">
-      <text x="46" y="146">&gt; building useful systems</text>
-      <rect x="222" y="136" width="8" height="12" fill="#79f4b0">
+      <text x="1148" y="146" text-anchor="end">&gt; building useful systems</text>
+      <rect x="1152" y="136" width="8" height="12" fill="#79f4b0">
         <animate attributeName="opacity" values="1;1;0;0" dur="1.06s" repeatCount="indefinite"/>
       </rect>
     </g>
@@ -154,8 +154,8 @@
       </g>
     </g>
 
-    <!-- corner tag -->
-    <text x="1168" y="200" text-anchor="end" fill="#79f4b0" font-size="12" letter-spacing="1" opacity="0.8">thibautdqb</text>
+    <!-- corner tag (bottom-left, balances the right-aligned headline) -->
+    <text x="32" y="200" fill="#79f4b0" font-size="12" letter-spacing="1" opacity="0.8">thibautdqb</text>
 
     <!-- border -->
     <rect x="0.5" y="0.5" width="1199" height="259" rx="18" fill="none" stroke="#79f4b0" stroke-opacity="0.2"/>
