@@ -8,7 +8,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/main/assets/thibaut-runner-banner.svg" alt="Thibautdqb animated T-Rex banner" />
+<img width="100%" src="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/main/assets/thibaut-banner.svg" alt="Thibautdqb animated T-Rex banner" />
 
 <br/>
 <img width="78" src="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/main/assets/trex-mark.svg" alt="Thibautdqb T-Rex mark" />
