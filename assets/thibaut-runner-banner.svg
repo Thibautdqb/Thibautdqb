@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Thibautdqb animated pixel runner banner</title>
+  <desc id="desc">An original pixel dinosaur runs and jumps over scrolling cacti while Thibaut de Quatrebarbes, AI Engineer, Quant Research and Data Systems scroll across the banner.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080b12"/>
+      <stop offset="0.42" stop-color="#17102b"/>
+      <stop offset="0.74" stop-color="#48173f"/>
+      <stop offset="1" stop-color="#10131c"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff8a5b"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="screen"><rect width="1200" height="260" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#screen)">
+    <rect width="1200" height="260" rx="18" fill="url(#bg)"/>
+
+    <!-- subtle terminal grid -->
+    <g opacity="0.12" stroke="#6cff9c" stroke-width="1">
+      <path d="M0 40H1200M0 80H1200M0 120H1200M0 160H1200M0 200H1200M0 240H1200"/>
+      <path d="M80 0V260M160 0V260M240 0V260M320 0V260M400 0V260M480 0V260M560 0V260M640 0V260M720 0V260M800 0V260M880 0V260M960 0V260M1040 0V260M1120 0V260"/>
+    </g>
+
+    <!-- horizon glow -->
+    <circle cx="955" cy="145" r="82" fill="url(#sun)" opacity="0.18" filter="url(#glow)"/>
+    <path d="M870 145H1040M880 160H1030M895 176H1015" stroke="#ff8a5b" stroke-width="2" opacity="0.28"/>
+
+    <!-- top HUD -->
+    <text x="28" y="30" fill="#6cff9c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.6">THIBAUTDQB / RUN MODE</text>
+    <circle cx="1160" cy="25" r="5" fill="#6cff9c">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="1140" y="30" text-anchor="end" fill="#a8b3c7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">LIVE</text>
+
+    <!-- scrolling identity -->
+    <g filter="url(#glow)">
+      <text y="82" fill="#f7f7fb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="27" font-weight="700" letter-spacing="2">
+        THIBAUT DE QUATREBARBES  •  AI ENGINEER  •  QUANT RESEARCH  •  DATA SYSTEMS  •
+        <animate attributeName="x" from="1200" to="-1650" dur="13s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <!-- slow moving clouds / data packets -->
+    <g fill="#c084fc" opacity="0.38">
+      <g transform="translate(1180 102)">
+        <rect x="0" y="0" width="52" height="4"/><rect x="16" y="-8" width="28" height="4"/>
+        <animateTransform attributeName="transform" type="translate" from="1180 102" to="-120 102" dur="18s" repeatCount="indefinite"/>
+      </g>
+      <g transform="translate(760 120)">
+        <rect x="0" y="0" width="42" height="4"/><rect x="12" y="-8" width="20" height="4"/>
+        <animateTransform attributeName="transform" type="translate" from="760 120" to="-460 120" dur="22s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <!-- ground -->
+    <line x1="0" y1="218" x2="1200" y2="218" stroke="#6cff9c" stroke-width="3" opacity="0.9"/>
+    <g stroke="#6cff9c" stroke-width="3" opacity="0.45">
+      <path d="M0 231h42m26 0h34m24 0h54m30 0h28m26 0h58m28 0h40m26 0h54m30 0h32m28 0h64m28 0h38m25 0h52m32 0h46m26 0h68" stroke-dasharray="22 20">
+        <animate attributeName="stroke-dashoffset" from="0" to="-84" dur="1.1s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- original pixel runner -->
+    <g transform="translate(118 0)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -18;0 -72;0 -82;0 -38;0 0;0 0" keyTimes="0;0.48;0.55;0.64;0.70;0.82;0.91;1" dur="4.8s" repeatCount="indefinite"/>
+        <g transform="translate(0 150)" fill="#6cff9c" filter="url(#glow)">
+          <!-- tail -->
+          <rect x="0" y="34" width="12" height="10"/>
+          <rect x="10" y="28" width="14" height="14"/>
+          <rect x="22" y="22" width="13" height="18"/>
+          <!-- body -->
+          <rect x="32" y="18" width="42" height="30"/>
+          <rect x="48" y="8" width="26" height="20"/>
+          <!-- neck and head -->
+          <rect x="68" y="0" width="18" height="34"/>
+          <rect x="80" y="-8" width="42" height="28"/>
+          <rect x="108" y="12" width="18" height="10"/>
+          <rect x="98" y="18" width="26" height="10"/>
+          <!-- jaw cutout -->
+          <rect x="83" y="13" width="17" height="8" fill="#17102b"/>
+          <!-- eye -->
+          <rect x="105" y="-2" width="5" height="5" fill="#080b12"/>
+          <!-- arm -->
+          <rect x="66" y="30" width="20" height="7"/>
+          <rect x="82" y="35" width="8" height="7"/>
+          <!-- legs -->
+          <rect x="42" y="44" width="12" height="21">
+            <animate attributeName="height" values="21;13;21" dur="0.32s" repeatCount="indefinite"/>
+          </rect>
+          <rect x="49" y="61" width="20" height="7">
+            <animate attributeName="x" values="49;42;49" dur="0.32s" repeatCount="indefinite"/>
+          </rect>
+          <rect x="65" y="44" width="11" height="18">
+            <animate attributeName="height" values="12;20;12" dur="0.32s" repeatCount="indefinite"/>
+          </rect>
+          <rect x="67" y="59" width="19" height="7">
+            <animate attributeName="x" values="61;67;61" dur="0.32s" repeatCount="indefinite"/>
+          </rect>
+        </g>
+      </g>
+    </g>
+
+    <!-- cactus stream A -->
+    <g fill="#ff8a5b" filter="url(#glow)">
+      <g transform="translate(1220 0)">
+        <g transform="translate(0 166)">
+          <rect x="18" y="0" width="12" height="52" rx="2"/>
+          <rect x="3" y="18" width="15" height="10" rx="2"/>
+          <rect x="3" y="5" width="9" height="23" rx="2"/>
+          <rect x="30" y="28" width="15" height="10" rx="2"/>
+          <rect x="38" y="17" width="9" height="21" rx="2"/>
+        </g>
+        <animateTransform attributeName="transform" type="translate" from="1220 0" to="-180 0" dur="4.8s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <!-- cactus stream B -->
+    <g fill="#c084fc" opacity="0.9" filter="url(#glow)">
+      <g transform="translate(1600 0)">
+        <g transform="translate(0 179)">
+          <rect x="14" y="0" width="10" height="39" rx="2"/>
+          <rect x="2" y="14" width="12" height="8" rx="2"/>
+          <rect x="2" y="5" width="7" height="17" rx="2"/>
+        </g>
+        <animateTransform attributeName="transform" type="translate" from="1600 0" to="-220 0" dur="6.2s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <!-- score / specialties -->
+    <text x="1168" y="116" text-anchor="end" fill="#a8b3c7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">AI × FINANCE × ENGINEERING</text>
+    <text x="1168" y="136" text-anchor="end" fill="#6cff9c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">SCORE  2026</text>
+
+    <!-- scanline -->
+    <rect x="0" y="0" width="1200" height="2" fill="#ffffff" opacity="0.08">
+      <animate attributeName="y" from="0" to="260" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect width="1200" height="260" rx="18" fill="none" stroke="#6cff9c" stroke-opacity="0.25"/>
+  </g>
+</svg>
