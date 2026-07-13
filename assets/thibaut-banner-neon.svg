@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
   <title id="title">Thibautdqb — synthwave neon T-Rex banner</title>
-  <desc id="desc">Retro-futuristic synthwave scene: a colour-shifting sunset sky, a scanline sun reflected on a scrolling neon perspective grid, cacti and bushes, and a neon pixel T-Rex that jumps over cacti and ducks under a pterodactyl, all locked to one timeline. Name and tagline set on the right.</desc>
+  <desc id="desc">Retro-futuristic synthwave scene: a colour-shifting sunset sky, four parallax mountain ranges of different sizes with gaps scrolling behind and in front of a scanline sun, a scrolling neon perspective grid, and a neon pixel T-Rex that jumps over cacti and ducks under a pterodactyl, all locked to one timeline. Name and tagline set on the right.</desc>
 
   <defs>
     <linearGradient id="sky" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="260">
       <stop offset="0" stop-color="#0a0522">
-        <animate attributeName="stop-color" values="#0a0522;#140631;#050a26;#180a2e;#0a0522" dur="20s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#0a0522;#140631;#050a26;#180a2e;#0a0522" dur="18s" repeatCount="indefinite"/>
       </stop>
       <stop offset="0.55" stop-color="#39114e">
-        <animate attributeName="stop-color" values="#39114e;#54123f;#20124a;#471336;#39114e" dur="20s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#39114e;#54123f;#20124a;#471336;#39114e" dur="18s" repeatCount="indefinite"/>
       </stop>
       <stop offset="1" stop-color="#ff5f6d">
-        <animate attributeName="stop-color" values="#ff5f6d;#ff8f4f;#c04bd0;#ff5aa0;#ff5f6d" dur="20s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#ff5f6d;#ff8f4f;#c04bd0;#ff5aa0;#ff5f6d" dur="18s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
@@ -43,16 +43,27 @@
 
     <!-- stars -->
     <g fill="#ffffff" opacity="0.7">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-60 0" dur="60s" repeatCount="indefinite"/>
       <circle cx="150" cy="30" r="1.1"/><circle cx="330" cy="22" r="0.9"/><circle cx="455" cy="44" r="1"/>
-      <circle cx="815" cy="26" r="0.9"/><circle cx="980" cy="46" r="1"/><circle cx="1130" cy="28" r="1.1"/>
+      <circle cx="815" cy="26" r="0.9"/><circle cx="980" cy="46" r="1"/><circle cx="1130" cy="28" r="1.1"/><circle cx="1290" cy="34" r="1"/>
       <animate attributeName="opacity" values="0.7;0.2;0.7" dur="3.6s" repeatCount="indefinite"/>
     </g>
-    <g fill="#c4ffe3" opacity="0.5">
-      <circle cx="250" cy="52" r="0.8"/><circle cx="700" cy="20" r="0.8"/><circle cx="1050" cy="60" r="0.8"/>
-      <animate attributeName="opacity" values="0.5;0.15;0.5" dur="5.2s" repeatCount="indefinite"/>
+
+    <!-- ===== RANGE 1 — farthest, small massifs, slowest ===== -->
+    <g fill="#26134d" opacity="0.5">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-1200 0" dur="74s" calcMode="linear" repeatCount="indefinite"/>
+      <path d="M0 186 L100 186 L160 152 L220 168 L260 186 L380 186 L450 148 L520 168 L560 186 L700 186 L780 150 L840 166 L880 186 L1000 186 L1070 152 L1130 168 L1140 186 L1200 186 Z"/>
+      <path transform="translate(1200 0)" d="M0 186 L100 186 L160 152 L220 168 L260 186 L380 186 L450 148 L520 168 L560 186 L700 186 L780 150 L840 166 L880 186 L1000 186 L1070 152 L1130 168 L1140 186 L1200 186 Z"/>
     </g>
 
-    <!-- SUN -->
+    <!-- ===== RANGE 2 — medium massifs, behind the sun ===== -->
+    <g fill="#1b0d3c" opacity="0.78">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-1200 0" dur="52s" calcMode="linear" repeatCount="indefinite"/>
+      <path d="M0 186 L60 186 L140 134 L220 160 L300 186 L440 186 L520 130 L610 158 L680 186 L820 186 L900 132 L990 158 L1060 186 L1200 186 Z"/>
+      <path transform="translate(1200 0)" d="M0 186 L60 186 L140 134 L220 160 L300 186 L440 186 L520 130 L610 158 L680 186 L820 186 L900 132 L990 158 L1060 186 L1200 186 Z"/>
+    </g>
+
+    <!-- ===== SUN with scanline slits ===== -->
     <g filter="url(#glowL)">
       <circle cx="600" cy="150" r="80" fill="url(#sun)"/>
       <g clip-path="url(#sunClip)" fill="url(#sky)">
@@ -66,13 +77,33 @@
       </g>
     </g>
 
-    <!-- side mountains -->
-    <g fill="#0a0620" stroke="#37e0ff" stroke-width="1.3" opacity="0.85" filter="url(#glowS)">
-      <path d="M-10 186 L74 140 L152 172 L236 134 L330 186 Z"/>
-      <path d="M878 186 L962 142 L1036 170 L1122 130 L1210 186 Z"/>
+    <!-- ===== RANGE 3 — big massifs in front of the sun, neon ridge ===== -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;-1200 0" dur="32s" calcMode="linear" repeatCount="indefinite"/>
+      <g fill="#0a0518">
+        <path d="M0 186 L40 186 L110 122 L180 150 L250 112 L300 186 L380 186 L460 118 L540 148 L620 186 L720 186 L800 114 L880 146 L960 122 L980 186 L1120 186 L1200 186 Z"/>
+        <path transform="translate(1200 0)" d="M0 186 L40 186 L110 122 L180 150 L250 112 L300 186 L380 186 L460 118 L540 148 L620 186 L720 186 L800 114 L880 146 L960 122 L980 186 L1120 186 L1200 186 Z"/>
+      </g>
+      <g fill="none" stroke="#37e0ff" stroke-width="1.3" opacity="0.6" filter="url(#glowS)">
+        <path d="M40 186 L110 122 L180 150 L250 112 L300 186 M380 186 L460 118 L540 148 L620 186 M720 186 L800 114 L880 146 L960 122 L980 186"/>
+        <path transform="translate(1200 0)" d="M40 186 L110 122 L180 150 L250 112 L300 186 M380 186 L460 118 L540 148 L620 186 M720 186 L800 114 L880 146 L960 122 L980 186"/>
+      </g>
     </g>
 
-    <!-- NEON GRID -->
+    <!-- ===== RANGE 4 — closest, biggest massifs, magenta ridge, fastest ===== -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;-1200 0" dur="20s" calcMode="linear" repeatCount="indefinite"/>
+      <g fill="#050209">
+        <path d="M0 186 L20 186 L120 104 L220 150 L320 186 L420 186 L560 108 L700 150 L720 186 L840 186 L960 116 L1080 148 L1120 186 L1200 186 Z"/>
+        <path transform="translate(1200 0)" d="M0 186 L20 186 L120 104 L220 150 L320 186 L420 186 L560 108 L700 150 L720 186 L840 186 L960 116 L1080 148 L1120 186 L1200 186 Z"/>
+      </g>
+      <g fill="none" stroke="#ff2fb9" stroke-width="1.3" opacity="0.5" filter="url(#glowS)">
+        <path d="M20 186 L120 104 L220 150 L320 186 M420 186 L560 108 L700 150 L720 186 M840 186 L960 116 L1080 148 L1120 186"/>
+        <path transform="translate(1200 0)" d="M20 186 L120 104 L220 150 L320 186 M420 186 L560 108 L700 150 L720 186 M840 186 L960 116 L1080 148 L1120 186"/>
+      </g>
+    </g>
+
+    <!-- ===== NEON GRID ===== -->
     <g clip-path="url(#gridClip)">
       <ellipse cx="600" cy="212" rx="95" ry="64" fill="url(#reflect)"/>
       <g filter="url(#glowL)">
@@ -147,7 +178,6 @@
         <animate attributeName="opacity" values="0.35;0.35;0.08;0.35;0.35;0.08;0.35;0.35" keyTimes="0;0.21;0.265;0.33;0.86;0.915;0.965;1" dur="6s" repeatCount="indefinite"/>
       </ellipse>
 
-      <!-- standing / running dino (also does the jumps); hidden during the duck -->
       <g>
         <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.55;0.575;0.64;0.665;1" dur="6s" repeatCount="indefinite"/>
         <g>
@@ -193,7 +223,6 @@
         </g>
       </g>
 
-      <!-- crouched dino, shown only during the duck window -->
       <g filter="url(#glowS)" opacity="0">
         <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.55;0.575;0.64;0.665;1" dur="6s" repeatCount="indefinite"/>
         <g fill="#79f4b0">

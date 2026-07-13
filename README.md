@@ -21,30 +21,9 @@
 
 </div>
 
-<!-- ─────────────────────────  WHOAMI  ───────────────────────── -->
-
-```python
-class Thibautdqb:
-    """I turn models and market data into systems that actually ship."""
-
-    role      = "Applied AI · Quant research · Data engineering"
-    building  = "artdepercevoir.com — computer vision that reads the real world"
-    focus     = ["vision pipelines (DINO → SAM2 → VLM)",
-                 "measurable trading signals",
-                 "reproducible, production-grade data flows"]
-    principle = "if it isn't measured, it isn't done"
-
-    def collaborate(self) -> str:
-        return "open to hard problems where AI meets reality → thibautdqb@gmail.com"
-```
-
-<div align="center">
-<img width="100%" src="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/main/assets/profile-divider.svg" alt="divider" />
-</div>
-
 <!-- ─────────────────────────  ARSENAL  ──────────────────────── -->
 
-### `> arsenal`
+### `> stack`
 
 <div align="center">
 
@@ -76,82 +55,4 @@ class Thibautdqb:
 
 <div align="center">
 <img width="100%" src="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/main/assets/profile-divider.svg" alt="divider" />
-</div>
-
-<!-- ─────────────────────────  BUILDS  ───────────────────────── -->
-
-### `> featured builds`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**🦖 Art de Percevoir**
-<br/>
-Computer-vision engine that detects, segments and prices real-world objects from a single photo. Multi-stage pipeline: **Grounding-DINO → SAM2 → Florence-2 → Qwen**, served on GPU workers.
-
-`vision` · `VLM` · `pipelines` · `supabase`
-
-[→ artdepercevoir.com](https://artdepercevoir.com)
-
-</td>
-<td width="50%" valign="top">
-
-**📈 Quant Signals**
-<br/>
-Research toolkit turning raw market data into backtested, measurable signals — reproducible notebooks, honest metrics, no curve-fitting theatre.
-
-`quant` · `research` · `pandas` · `backtesting`
-
-[→ github.com/Thibautdqb](https://github.com/Thibautdqb)
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-<img width="100%" src="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/main/assets/profile-divider.svg" alt="divider" />
-</div>
-
-<!-- ─────────────────────────  STATS  ────────────────────────── -->
-
-### `> telemetry`
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Thibautdqb&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=111820&title_color=79f4b0&text_color=c4ffe3&icon_color=bb9cff" alt="GitHub stats" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Thibautdqb&hide_border=true&background=111820&stroke=2a3743&ring=79f4b0&fire=bb9cff&currStreakLabel=79f4b0&sideLabels=c4ffe3&dates=6b7785&currStreakNum=c4ffe3&sideNums=c4ffe3" alt="GitHub streak" />
-
-<br/>
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Thibautdqb&layout=compact&hide_border=true&langs_count=8&bg_color=111820&title_color=79f4b0&text_color=c4ffe3" alt="Top languages" />
-
-</div>
-
-<!-- Contribution snake — requires the snake GitHub Action (see note at bottom). -->
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/output/snake-dark.svg" />
-  <img width="100%" src="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/output/snake.svg" alt="Contribution snake animation" />
-</picture>
-
-</div>
-
-<div align="center">
-<img width="100%" src="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/main/assets/profile-divider.svg" alt="divider" />
-</div>
-
-<!-- ─────────────────────────  FOOTER  ───────────────────────── -->
-
-<div align="center">
-
-<img width="64" src="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/main/assets/trex-mark.svg" alt="T-Rex mark" />
-
-<br/>
-
-_“Keep running — the obstacles are just the score going up.”_
-
-<sub>Built with pixels, patience and a lot of GPU hours.</sub>
-
 </div>
