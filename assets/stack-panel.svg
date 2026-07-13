@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 232" role="img" aria-label="Tech stack panel" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c0620"/>
+      <stop offset="1" stop-color="#140826"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5fd0" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff5fd0" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ff5fd0" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="g" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="pc"><rect x="1" y="1" width="738" height="230" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#pc)">
+    <rect width="740" height="232" fill="url(#pbg)"/>
+
+    <!-- faint scanlines -->
+    <g stroke="#79f4b0" stroke-width="1" opacity="0.05">
+      <path d="M0 30H740M0 60H740M0 90H740M0 120H740M0 150H740M0 180H740M0 210H740"/>
+    </g>
+
+    <!-- moving highlight sweep -->
+    <rect x="-240" y="0" width="240" height="232" fill="url(#sweep)">
+      <animate attributeName="x" values="-240;740" dur="6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- title -->
+    <g filter="url(#g)">
+      <text x="28" y="42" fill="#ffffff" font-size="20" font-weight="700" letter-spacing="1">&gt; stack</text>
+    </g>
+    <text x="712" y="42" text-anchor="end" fill="#6f6790" font-size="12" letter-spacing="1">15 modules · always shipping</text>
+    <line x1="28" y1="54" x2="712" y2="54" stroke="#2a1c40" stroke-width="1"/>
+
+    <!-- ============ ROW 1 · AI / ML (magenta) ============ -->
+    <text x="28" y="92" fill="#ff5fd0" font-size="12" letter-spacing="1.5" filter="url(#g)">AI / ML</text>
+    <g font-size="12" fill="#e7e0f5">
+      <g transform="translate(150 74)"><rect width="82" height="26" rx="13" fill="#180a2c" stroke="#ff5fd0" stroke-opacity="0.55"/><circle cx="15" cy="13" r="3" fill="#ff5fd0"/><text x="27" y="17">PyTorch</text></g>
+      <g transform="translate(242 74)"><rect width="122" height="26" rx="13" fill="#180a2c" stroke="#ff5fd0" stroke-opacity="0.55"/><circle cx="15" cy="13" r="3" fill="#ff5fd0"/><text x="27" y="17">Transformers</text></g>
+      <g transform="translate(374 74)"><rect width="80" height="26" rx="13" fill="#180a2c" stroke="#ff5fd0" stroke-opacity="0.55"/><circle cx="15" cy="13" r="3" fill="#ff5fd0"/><text x="27" y="17">OpenCV</text></g>
+      <g transform="translate(464 74)"><rect width="60" height="26" rx="13" fill="#180a2c" stroke="#ff5fd0" stroke-opacity="0.55"/><circle cx="15" cy="13" r="3" fill="#ff5fd0"/><text x="27" y="17">ONNX</text></g>
+      <g transform="translate(534 74)"><rect width="60" height="26" rx="13" fill="#180a2c" stroke="#ff5fd0" stroke-opacity="0.55"/><circle cx="15" cy="13" r="3" fill="#ff5fd0"/><text x="27" y="17">CUDA</text></g>
+    </g>
+
+    <!-- ============ ROW 2 · DATA / BACKEND (cyan) ============ -->
+    <text x="28" y="146" fill="#37e0ff" font-size="12" letter-spacing="1.5" filter="url(#g)">DATA</text>
+    <g font-size="12" fill="#e7e0f5">
+      <g transform="translate(150 128)"><rect width="76" height="26" rx="13" fill="#08131c" stroke="#37e0ff" stroke-opacity="0.55"/><circle cx="15" cy="13" r="3" fill="#37e0ff"/><text x="27" y="17">Python</text></g>
+      <g transform="translate(236 128)"><rect width="78" height="26" rx="13" fill="#08131c" stroke="#37e0ff" stroke-opacity="0.55"/><circle cx="15" cy="13" r="3" fill="#37e0ff"/><text x="27" y="17">Pandas</text></g>
+      <g transform="translate(324 128)"><rect width="72" height="26" rx="13" fill="#08131c" stroke="#37e0ff" stroke-opacity="0.55"/><circle cx="15" cy="13" r="3" fill="#37e0ff"/><text x="27" y="17">NumPy</text></g>
+      <g transform="translate(406 128)"><rect width="102" height="26" rx="13" fill="#08131c" stroke="#37e0ff" stroke-opacity="0.55"/><circle cx="15" cy="13" r="3" fill="#37e0ff"/><text x="27" y="17">PostgreSQL</text></g>
+      <g transform="translate(518 128)"><rect width="88" height="26" rx="13" fill="#08131c" stroke="#37e0ff" stroke-opacity="0.55"/><circle cx="15" cy="13" r="3" fill="#37e0ff"/><text x="27" y="17">Supabase</text></g>
+      <g transform="translate(616 128)"><rect width="80" height="26" rx="13" fill="#08131c" stroke="#37e0ff" stroke-opacity="0.55"/><circle cx="15" cy="13" r="3" fill="#37e0ff"/><text x="27" y="17">FastAPI</text></g>
+    </g>
+
+    <!-- ============ ROW 3 · INFRA (green) ============ -->
+    <text x="28" y="200" fill="#79f4b0" font-size="12" letter-spacing="1.5" filter="url(#g)">INFRA</text>
+    <g font-size="12" fill="#e7e0f5">
+      <g transform="translate(150 182)"><rect width="78" height="26" rx="13" fill="#0a1a12" stroke="#79f4b0" stroke-opacity="0.55"/><circle cx="15" cy="13" r="3" fill="#79f4b0"/><text x="27" y="17">Docker</text></g>
+      <g transform="translate(238 182)"><rect width="86" height="26" rx="13" fill="#0a1a12" stroke="#79f4b0" stroke-opacity="0.55"/><circle cx="15" cy="13" r="3" fill="#79f4b0"/><text x="27" y="17">Streamlit</text></g>
+      <g transform="translate(334 182)"><rect width="54" height="26" rx="13" fill="#0a1a12" stroke="#79f4b0" stroke-opacity="0.55"/><circle cx="15" cy="13" r="3" fill="#79f4b0"/><text x="27" y="17">Git</text></g>
+      <g transform="translate(398 182)"><rect width="64" height="26" rx="13" fill="#0a1a12" stroke="#79f4b0" stroke-opacity="0.55"/><circle cx="15" cy="13" r="3" fill="#79f4b0"/><text x="27" y="17">Linux</text></g>
+      <g transform="translate(472 182)"><rect width="88" height="26" rx="13" fill="#0a1a12" stroke="#79f4b0" stroke-opacity="0.55"/><circle cx="15" cy="13" r="3" fill="#79f4b0"/><text x="27" y="17">RunPod</text></g>
+    </g>
+
+    <rect x="1" y="1" width="738" height="230" rx="16" fill="none" stroke="#ff5fd0" stroke-opacity="0.35"/>
+  </g>
+</svg>

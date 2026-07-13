@@ -21,37 +21,46 @@
 
 </div>
 
-<!-- ─────────────────────────  ARSENAL  ──────────────────────── -->
+<!-- ══════════════  STACK — 4 VARIANTES À COMPARER (garde-en une)  ══════════════ -->
 
-### `> stack`
+### `> stack` — Variante A · panneau néon (SVG sur-mesure)
+
+<div align="center">
+<img width="760" src="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/main/assets/stack-panel.svg" alt="Stack — neon panel" />
+</div>
+
+<br/>
+
+### `> stack` — Variante B · skillicons.dev
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,sklearn,fastapi,postgres,supabase,docker,git,linux,bash&theme=dark&perline=12" alt="Stack — skill icons" />
+</div>
+
+<br/>
+
+### `> stack` — Variante C · barres de maîtrise
 
 <div align="center">
 
-**AI / Machine Learning**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-111820?style=flat-square&logo=pytorch&logoColor=ee4c2c)
-![Hugging Face](https://img.shields.io/badge/Transformers-111820?style=flat-square&logo=huggingface&logoColor=ffd21e)
-![OpenCV](https://img.shields.io/badge/OpenCV-111820?style=flat-square&logo=opencv&logoColor=79f4b0)
-![ONNX](https://img.shields.io/badge/ONNX-111820?style=flat-square&logo=onnx&logoColor=bb9cff)
-![CUDA](https://img.shields.io/badge/CUDA-111820?style=flat-square&logo=nvidia&logoColor=76b900)
-
-**Data / Backend**
-
-![Python](https://img.shields.io/badge/Python-111820?style=flat-square&logo=python&logoColor=79f4b0)
-![Pandas](https://img.shields.io/badge/Pandas-111820?style=flat-square&logo=pandas&logoColor=bb9cff)
-![NumPy](https://img.shields.io/badge/NumPy-111820?style=flat-square&logo=numpy&logoColor=4dabcf)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111820?style=flat-square&logo=postgresql&logoColor=79f4b0)
-![Supabase](https://img.shields.io/badge/Supabase-111820?style=flat-square&logo=supabase&logoColor=3ecf8e)
-![FastAPI](https://img.shields.io/badge/FastAPI-111820?style=flat-square&logo=fastapi&logoColor=05998b)
-
-**Infra / Tooling**
-
-![Docker](https://img.shields.io/badge/Docker-111820?style=flat-square&logo=docker&logoColor=2496ed)
-![Streamlit](https://img.shields.io/badge/Streamlit-111820?style=flat-square&logo=streamlit&logoColor=ff4b4b)
-![Git](https://img.shields.io/badge/Git-111820?style=flat-square&logo=git&logoColor=f05032)
-![Linux](https://img.shields.io/badge/Linux-111820?style=flat-square&logo=linux&logoColor=fcc624)
+| | | | |
+|---|---|---|---|
+| **Python** `████████████` | **PyTorch** `██████████░░` | **Pandas** `███████████░` | **OpenCV** `█████████░░░` |
+| **PostgreSQL** `██████████░░` | **Supabase** `█████████░░░` | **FastAPI** `████████░░░░` | **Docker** `████████░░░░` |
 
 </div>
+
+<br/>
+
+### `> stack` — Variante D · séquence terminal
+
+```console
+$ load --stack --all
+[ok] ai/ml    pytorch · transformers · opencv · onnx · cuda
+[ok] data     python · pandas · numpy · postgresql · supabase · fastapi
+[ok] infra    docker · streamlit · git · linux · runpod
+stack ready ▸ 15 modules · always shipping
+```
 
 <div align="center">
 <img width="100%" src="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/main/assets/profile-divider.svg" alt="divider" />
