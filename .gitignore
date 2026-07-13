@@ -1,0 +1,20 @@
+# ──────────────────────────────────────────────────────────────
+#  This git repository is rooted at the HOME directory, but its
+#  only purpose is to publish the GitHub profile repo
+#  (github.com/Thibautdqb/Thibautdqb).
+#
+#  Strategy: ignore the ENTIRE home directory by default, then
+#  re-include ONLY the files that belong to the profile. This
+#  makes an accidental `git add -A` safe — it can never stage
+#  secrets such as .aws/, .ssh/, .bash_history, .claude.json,
+#  .config/, credentials, tokens, etc.
+# ──────────────────────────────────────────────────────────────
+
+# 1) Ignore everything at the top level of the home directory.
+/*
+
+# 2) Re-include only the profile files.
+!/.gitignore
+!/README.md
+!/assets/
+!/.github/
