@@ -8,10 +8,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/main/assets/thibaut-banner.svg" alt="Thibautdqb animated T-Rex banner" />
-
-<br/>
-<img width="78" src="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/main/assets/trex-mark.svg" alt="Thibautdqb T-Rex mark" />
+<img width="100%" src="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/main/assets/thibaut-banner-neon.svg" alt="Thibautdqb animated T-Rex banner" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2400&pause=850&color=79F4B0&center=true&vCenter=true&width=780&lines=Applied+AI+%E2%86%92+useful+systems;Quant+research+%E2%86%92+measurable+signals;Data+engineering+%E2%86%92+production-ready+pipelines" alt="Animated introduction" />
 
