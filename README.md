@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/29966256/README.md)
 <div align="center">
 
 <img width="100%" src="https://raw.githubusercontent.com/Thibautdqb/Thibautdqb/main/assets/thibaut-runner-banner.svg" alt="Thibautdqb animated T-Rex banner" />
