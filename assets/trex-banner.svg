@@ -1,0 +1,270 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+  <title id="title">Thibaut de Quatrebarbes, machine learning and applied AI</title>
+  <desc id="desc">Retro-futuristic synthwave scene: a colour-shifting sunset sky, four parallax mountain ranges of different sizes with gaps scrolling behind and in front of a scanline sun, a scrolling neon perspective grid, and a neon pixel T-Rex that jumps over cacti and ducks under a pterodactyl, all locked to one timeline. Name and tagline set on the right.</desc>
+
+  <defs>
+    <linearGradient id="sky" gradientUnits="userSpaceOnUse" x1="0" y1="-60" x2="0" y2="260">
+      <stop offset="0" stop-color="#070b10">
+        <animate attributeName="stop-color" values="#070b10;#081016;#060d12;#08121a;#070b10" dur="18s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.55" stop-color="#0b1d22">
+        <animate attributeName="stop-color" values="#0b1d22;#0c2226;#0a1b24;#0d2321;#0b1d22" dur="18s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#0f766e">
+        <animate attributeName="stop-color" values="#0f766e;#0e7490;#155e75;#047857;#0f766e" dur="18s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="sun" gradientUnits="userSpaceOnUse" x1="600" y1="72" x2="600" y2="230">
+      <stop offset="0" stop-color="#ecfeff"/>
+      <stop offset="0.42" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+
+    <radialGradient id="reflect" gradientUnits="userSpaceOnUse" cx="600" cy="188" r="130">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glowS" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="1.7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowL" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+    <clipPath id="gridClip"><rect x="0" y="186" width="1200" height="74"/></clipPath>
+    <clipPath id="sunClip"><circle cx="600" cy="150" r="80"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+   <g transform="translate(0 60)">
+    <rect y="-60" width="1200" height="320" fill="url(#sky)"/>
+
+    <!-- stars -->
+    <g fill="#ffffff" opacity="0.7">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-60 0" dur="60s" repeatCount="indefinite"/>
+      <circle cx="150" cy="30" r="1.1"/><circle cx="330" cy="22" r="0.9"/><circle cx="455" cy="44" r="1"/>
+      <circle cx="815" cy="26" r="0.9"/><circle cx="980" cy="46" r="1"/><circle cx="1130" cy="28" r="1.1"/><circle cx="1290" cy="34" r="1"/>
+      <animate attributeName="opacity" values="0.7;0.2;0.7" dur="3.6s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- ===== RANGE 1 — farthest, small massifs, slowest ===== -->
+    <g fill="#0f1d24" opacity="0.5">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-1200 0" dur="74s" calcMode="linear" repeatCount="indefinite"/>
+      <path d="M0 186 L100 186 L160 152 L220 168 L260 186 L380 186 L450 148 L520 168 L560 186 L700 186 L780 150 L840 166 L880 186 L1000 186 L1070 152 L1130 168 L1140 186 L1200 186 Z"/>
+      <path transform="translate(1200 0)" d="M0 186 L100 186 L160 152 L220 168 L260 186 L380 186 L450 148 L520 168 L560 186 L700 186 L780 150 L840 166 L880 186 L1000 186 L1070 152 L1130 168 L1140 186 L1200 186 Z"/>
+    </g>
+
+    <!-- ===== RANGE 2 — medium massifs, behind the sun ===== -->
+    <g fill="#0c171d" opacity="0.78">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-1200 0" dur="52s" calcMode="linear" repeatCount="indefinite"/>
+      <path d="M0 186 L60 186 L140 134 L220 160 L300 186 L440 186 L520 130 L610 158 L680 186 L820 186 L900 132 L990 158 L1060 186 L1200 186 Z"/>
+      <path transform="translate(1200 0)" d="M0 186 L60 186 L140 134 L220 160 L300 186 L440 186 L520 130 L610 158 L680 186 L820 186 L900 132 L990 158 L1060 186 L1200 186 Z"/>
+    </g>
+
+    <!-- ===== SUN with scanline slits ===== -->
+    <g filter="url(#glowL)">
+      <circle cx="600" cy="150" r="80" fill="url(#sun)"/>
+      <g clip-path="url(#sunClip)" fill="url(#sky)">
+        <rect x="516" y="120" width="168" height="2"/>
+        <rect x="516" y="127" width="168" height="2.5"/>
+        <rect x="516" y="135" width="168" height="3"/>
+        <rect x="516" y="144" width="168" height="3.5"/>
+        <rect x="516" y="154" width="168" height="4.5"/>
+        <rect x="516" y="166" width="168" height="5.5"/>
+        <rect x="516" y="179" width="168" height="7"/>
+      </g>
+    </g>
+
+    <!-- ===== RANGE 3 — big massifs in front of the sun, neon ridge ===== -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;-1200 0" dur="32s" calcMode="linear" repeatCount="indefinite"/>
+      <g fill="#070c10">
+        <path d="M0 186 L40 186 L110 122 L180 150 L250 112 L300 186 L380 186 L460 118 L540 148 L620 186 L720 186 L800 114 L880 146 L960 122 L980 186 L1120 186 L1200 186 Z"/>
+        <path transform="translate(1200 0)" d="M0 186 L40 186 L110 122 L180 150 L250 112 L300 186 L380 186 L460 118 L540 148 L620 186 L720 186 L800 114 L880 146 L960 122 L980 186 L1120 186 L1200 186 Z"/>
+      </g>
+      <g fill="none" stroke="#22d3ee" stroke-width="1.3" opacity="0.6" filter="url(#glowS)">
+        <path d="M40 186 L110 122 L180 150 L250 112 L300 186 M380 186 L460 118 L540 148 L620 186 M720 186 L800 114 L880 146 L960 122 L980 186"/>
+        <path transform="translate(1200 0)" d="M40 186 L110 122 L180 150 L250 112 L300 186 M380 186 L460 118 L540 148 L620 186 M720 186 L800 114 L880 146 L960 122 L980 186"/>
+      </g>
+    </g>
+
+    <!-- ===== RANGE 4 — closest, biggest massifs, magenta ridge, fastest ===== -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;-1200 0" dur="20s" calcMode="linear" repeatCount="indefinite"/>
+      <g fill="#04070a">
+        <path d="M0 186 L20 186 L120 104 L220 150 L320 186 L420 186 L560 108 L700 150 L720 186 L840 186 L960 116 L1080 148 L1120 186 L1200 186 Z"/>
+        <path transform="translate(1200 0)" d="M0 186 L20 186 L120 104 L220 150 L320 186 L420 186 L560 108 L700 150 L720 186 L840 186 L960 116 L1080 148 L1120 186 L1200 186 Z"/>
+      </g>
+      <g fill="none" stroke="#14b8a6" stroke-width="1.3" opacity="0.5" filter="url(#glowS)">
+        <path d="M20 186 L120 104 L220 150 L320 186 M420 186 L560 108 L700 150 L720 186 M840 186 L960 116 L1080 148 L1120 186"/>
+        <path transform="translate(1200 0)" d="M20 186 L120 104 L220 150 L320 186 M420 186 L560 108 L700 150 L720 186 M840 186 L960 116 L1080 148 L1120 186"/>
+      </g>
+    </g>
+
+    <!-- ===== NEON GRID ===== -->
+    <g clip-path="url(#gridClip)">
+      <ellipse cx="600" cy="212" rx="95" ry="64" fill="url(#reflect)"/>
+      <g filter="url(#glowL)">
+        <g stroke="#14b8a6" stroke-width="1.1" opacity="0.8">
+          <path d="M600 186 L-200 260"/><path d="M600 186 L-40 260"/><path d="M600 186 L120 260"/>
+          <path d="M600 186 L280 260"/><path d="M600 186 L440 260"/><path d="M600 186 L600 260"/>
+          <path d="M600 186 L760 260"/><path d="M600 186 L920 260"/><path d="M600 186 L1080 260"/>
+          <path d="M600 186 L1240 260"/><path d="M600 186 L1400 260"/>
+        </g>
+        <g stroke="#14b8a6" stroke-width="1.3" opacity="0.8">
+          <g>
+            <path d="M0 176H1200"/><path d="M0 186H1200"/><path d="M0 196H1200"/><path d="M0 206H1200"/>
+            <path d="M0 216H1200"/><path d="M0 226H1200"/><path d="M0 236H1200"/><path d="M0 246H1200"/>
+            <path d="M0 256H1200"/><path d="M0 266H1200"/>
+            <animateTransform attributeName="transform" type="translate" values="0 0;0 10" dur="0.5s" calcMode="linear" repeatCount="indefinite"/>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- horizon -->
+    <line x1="0" y1="186" x2="1200" y2="186" stroke="#22d3ee" stroke-width="2.2" filter="url(#glowL)">
+      <animate attributeName="stroke" values="#22d3ee;#22d3ee;#22d3ee" dur="10s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- ===== OBSTACLE A: cactus + bush cluster (jumped ~f0.265) ===== -->
+    <g filter="url(#glowS)">
+      <animateTransform attributeName="transform" type="translate" values="1260 0;-160 0;-160 0" keyTimes="0;0.35;1" dur="6s" calcMode="linear" repeatCount="indefinite"/>
+      <g transform="translate(0 186)">
+        <g fill="#34d399">
+          <rect x="-5" y="-48" width="10" height="48" rx="2"/>
+          <rect x="-16" y="-30" width="11" height="8" rx="2"/><rect x="-16" y="-38" width="7" height="16" rx="2"/>
+          <rect x="5" y="-24" width="11" height="8" rx="2"/><rect x="9" y="-34" width="7" height="18" rx="2"/>
+        </g>
+        <g fill="#22d3ee" transform="translate(34 0)">
+          <rect x="-9" y="-12" width="11" height="12" rx="3"/>
+          <rect x="1" y="-18" width="13" height="18" rx="4"/>
+          <rect x="13" y="-10" width="10" height="10" rx="3"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- ===== OBSTACLE B: double cactus (jumped ~f0.915) ===== -->
+    <g filter="url(#glowS)">
+      <animateTransform attributeName="transform" type="translate" values="1260 0;1260 0;-160 0" keyTimes="0;0.65;1" dur="6s" calcMode="linear" repeatCount="indefinite"/>
+      <g transform="translate(0 186)" fill="#22d3ee">
+        <rect x="-13" y="-40" width="9" height="40" rx="2"/><rect x="-22" y="-26" width="9" height="7" rx="2"/><rect x="-22" y="-33" width="6" height="14" rx="2"/>
+        <rect x="4" y="-54" width="9" height="54" rx="2"/><rect x="13" y="-34" width="9" height="7" rx="2"/><rect x="13" y="-41" width="6" height="14" rx="2"/>
+      </g>
+    </g>
+
+    <!-- ===== PTERODACTYL: head height (ducked ~f0.60) ===== -->
+    <g fill="#a78bfa" filter="url(#glowS)">
+      <animateTransform attributeName="transform" type="translate" values="1260 118;1260 118;-170 118;-170 118" keyTimes="0;0.35;0.68;1" dur="6s" calcMode="linear" repeatCount="indefinite"/>
+      <rect x="14" y="6" width="18" height="7" rx="2"/>
+      <rect x="30" y="3" width="9" height="6" rx="2"/>
+      <rect x="39" y="5" width="5" height="4" rx="1"/>
+      <g>
+        <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" calcMode="discrete" dur="0.4s" repeatCount="indefinite"/>
+        <rect x="0" y="0" width="18" height="6" rx="2"/><rect x="34" y="0" width="14" height="6" rx="2"/>
+      </g>
+      <g>
+        <animate attributeName="opacity" values="0;1" keyTimes="0;0.5" calcMode="discrete" dur="0.4s" repeatCount="indefinite"/>
+        <rect x="2" y="11" width="16" height="6" rx="2"/><rect x="34" y="11" width="14" height="6" rx="2"/>
+      </g>
+    </g>
+
+    <!-- ===== T-REX (jump + duck, locked to the 6s timeline) ===== -->
+    <g transform="translate(150 112)">
+      <ellipse cx="62" cy="82" fill="#000">
+        <animate attributeName="rx" values="34;34;18;34;34;18;34;34" keyTimes="0;0.21;0.265;0.33;0.86;0.915;0.965;1" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.35;0.35;0.08;0.35;0.35;0.08;0.35;0.35" keyTimes="0;0.21;0.265;0.33;0.86;0.915;0.965;1" dur="6s" repeatCount="indefinite"/>
+      </ellipse>
+
+      <g>
+        <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.55;0.575;0.64;0.665;1" dur="6s" repeatCount="indefinite"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+            values="0 0;0 0;0 -52;0 0;0 0;0 -52;0 0;0 0"
+            keyTimes="0;0.21;0.265;0.33;0.86;0.915;0.965;1"
+            calcMode="spline"
+            keySplines="0 0 1 1;0.3 0 0.4 1;0.5 0 0.7 1;0 0 1 1;0.3 0 0.4 1;0.5 0 0.7 1;0 0 1 1"
+            dur="6s" repeatCount="indefinite"/>
+
+          <g filter="url(#glowS)">
+            <g fill="#34d399">
+              <rect x="0" y="39" width="7" height="5"/><rect x="6" y="33" width="9" height="7"/>
+              <rect x="13" y="27" width="11" height="8"/><rect x="23" y="22" width="12" height="10"/>
+              <rect x="34" y="18" width="13" height="9"/><rect x="38" y="18" width="46" height="34"/>
+              <rect x="54" y="11" width="18" height="11"/><rect x="72" y="14" width="12" height="14"/>
+              <rect x="82" y="9" width="13" height="22"/><rect x="92" y="2" width="34" height="25"/>
+              <rect x="121" y="12" width="8" height="8"/><rect x="108" y="19" width="18" height="7"/>
+              <rect x="76" y="33" width="13" height="6"/><rect x="86" y="38" width="6" height="5"/>
+            </g>
+            <g fill="#10b981">
+              <rect x="44" y="30" width="28" height="13"/><rect x="55" y="22" width="16" height="8"/>
+              <rect x="82" y="14" width="8" height="13"/><rect x="93" y="12" width="16" height="8"/>
+            </g>
+            <g fill="#d1fae5"><rect x="45" y="14" width="18" height="5"/><rect x="95" y="5" width="13" height="4"/></g>
+            <rect x="96" y="18" width="13" height="7" fill="#0d1418"/>
+            <rect x="113" y="9" width="4" height="4" fill="#060b12"/>
+            <rect x="103" y="19" width="6" height="4" fill="#ecfeff" opacity="0.9"/>
+          </g>
+
+          <g fill="#34d399" filter="url(#glowS)">
+            <g>
+              <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" calcMode="discrete" dur="0.22s" repeatCount="indefinite"/>
+              <rect x="47" y="51" width="10" height="11"/><rect x="44" y="61" width="22" height="5"/>
+              <rect x="68" y="48" width="10" height="23"/><rect x="65" y="69" width="21" height="5"/>
+            </g>
+            <g>
+              <animate attributeName="opacity" values="0;1" keyTimes="0;0.5" calcMode="discrete" dur="0.22s" repeatCount="indefinite"/>
+              <rect x="47" y="48" width="10" height="23"/><rect x="52" y="69" width="21" height="5"/>
+              <rect x="68" y="51" width="10" height="11"/><rect x="63" y="61" width="22" height="5"/>
+            </g>
+          </g>
+        </g>
+      </g>
+
+      <g filter="url(#glowS)" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.55;0.575;0.64;0.665;1" dur="6s" repeatCount="indefinite"/>
+        <g fill="#34d399">
+          <rect x="2" y="50" width="8" height="6"/><rect x="8" y="46" width="10" height="6"/>
+          <rect x="16" y="44" width="54" height="22"/><rect x="30" y="38" width="24" height="8"/>
+          <rect x="66" y="46" width="22" height="16"/><rect x="84" y="44" width="20" height="14"/>
+          <rect x="101" y="50" width="8" height="7"/>
+        </g>
+        <g fill="#10b981"><rect x="20" y="54" width="40" height="10"/></g>
+        <g fill="#d1fae5"><rect x="30" y="40" width="20" height="4"/></g>
+        <rect x="96" y="49" width="9" height="6" fill="#0d1418"/>
+        <rect x="101" y="50" width="3" height="3" fill="#060b12"/>
+        <g fill="#34d399">
+          <g>
+            <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" calcMode="discrete" dur="0.22s" repeatCount="indefinite"/>
+            <rect x="40" y="64" width="9" height="10"/><rect x="60" y="64" width="9" height="10"/>
+          </g>
+          <g>
+            <animate attributeName="opacity" values="0;1" keyTimes="0;0.5" calcMode="discrete" dur="0.22s" repeatCount="indefinite"/>
+            <rect x="46" y="64" width="9" height="10"/><rect x="66" y="64" width="9" height="10"/>
+          </g>
+        </g>
+      </g>
+    </g>
+
+   </g>
+
+    <!-- HEADLINE (right) -->
+    <g filter="url(#glowS)">
+      <text x="1156" y="74" text-anchor="end" fill="#ffffff" font-size="27" font-weight="700" letter-spacing="0.5">THIBAUT DE QUATREBARBES</text>
+      <line x1="926" y1="86" x2="1156" y2="86" stroke="#22d3ee" stroke-width="1.4" opacity="0.7"/>
+      <text x="1156" y="106" text-anchor="end" fill="#34d399" font-size="14" letter-spacing="2.2">MACHINE&#160;LEARNING&#160;&amp;&#160;APPLIED&#160;AI</text>
+      <text x="1156" y="129" text-anchor="end" fill="#d1dae3" font-size="13.5" letter-spacing="0.6">double degree · AI &amp; Big Data × Asset &amp; Risk Management</text>
+      <g font-size="13" fill="#99f6e4">
+        <text x="1148" y="152" text-anchor="end">&gt; loves building things</text>
+        <rect x="1152" y="142" width="8" height="12" fill="#22d3ee">
+          <animate attributeName="opacity" values="1;1;0;0" dur="1.06s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+
+    <rect x="0.5" y="0.5" width="1199" height="319" rx="18" fill="none" stroke="#22d3ee" stroke-opacity="0.28"/>
+  </g>
+</svg>
