@@ -57,3 +57,14 @@ of verified trade data.
 </div>
 
 <div align="center"><picture><source media="(prefers-color-scheme: light)" srcset="assets/generated/divider-light.svg" /><img width="100%" src="assets/generated/divider.svg" alt="" /></picture></div>
+
+<div align="center">
+
+<a href="https://github.com/Thibautdqb/pytorchgrind"><picture><source media="(prefers-color-scheme: light)" srcset="assets/generated/pytorchgrind-light.svg" /><img width="100%" src="assets/generated/pytorchgrind.svg" alt="pytorchgrind: learning PyTorch by building" /></picture></a>
+
+a hands-on PyTorch practice repository: tensors and autograd, gradient descent visualised in 3D, computation
+graphs drawn with torchviz, and MNIST classifiers of growing complexity compared in TensorBoard.
+
+</div>
+
+<div align="center"><picture><source media="(prefers-color-scheme: light)" srcset="assets/generated/divider-light.svg" /><img width="100%" src="assets/generated/divider.svg" alt="" /></picture></div>

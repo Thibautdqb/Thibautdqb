@@ -3,7 +3,7 @@
     GITHUB_TOKEN=$(gh auth token) python scripts/cards.py
 
 Run daily by .github/workflows/cards.yml. Standard library only; every number comes from the GitHub or
-PyPI API. Draws: the project cards (elessar, volatility-engine), the elessar badges and the ridgeline divider.
+PyPI API. Draws: the project cards (elessar, volatility-engine, pytorchgrind), the elessar badges and the ridgeline divider.
 """
 
 from __future__ import annotations
@@ -66,7 +66,7 @@ def card(t: dict, label: str, name: str, tagline: str, prompt: str, code: str, r
            + ('<animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite"/>' if live else "")
            + "</circle>")
     # width of the name in a bold sans at 40px: narrow letters take about half the room of the others
-    name_w = 26 + sum(10.5 if ch in "iljtfr-.' " else 22 for ch in name) + (10 if dot_after else 0) + 24
+    name_w = 26 + sum(10.5 if ch in "iljt-.' " else 14 if ch in "fr" else 22 for ch in name) + (10 if dot_after else 0) + 24
     neon = f'<tspan fill="{t["acc0"]}" filter="url(#glow)">.</tspan>' if dot_after else ""
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="{esc(name)}: {esc(tagline)}">
   {gradient(t)}
@@ -97,6 +97,13 @@ def volatility(t: dict) -> str:
     repo = get(f"https://api.github.com/repos/{USER}/volatility-engine") or {}
     return card(t, "Research", "volatility-engine", "5-minute volatility forecasts",
                 "$", "git clone github.com/Thibautdqb/volatility-engine", "BTC · ETH · Deribit",
+                f"★ {repo.get('stargazers_count', 0)} · updated {(repo.get('pushed_at') or '')[:10]}", True)
+
+
+def pytorchgrind(t: dict) -> str:
+    repo = get(f"https://api.github.com/repos/{USER}/pytorchgrind") or {}
+    return card(t, "Learning lab", "pytorchgrind", "learning PyTorch by building",
+                "$", "git clone github.com/Thibautdqb/pytorchgrind", "autograd · torchviz · TensorBoard",
                 f"★ {repo.get('stargazers_count', 0)} · updated {(repo.get('pushed_at') or '')[:10]}", True)
 
 
@@ -160,7 +167,7 @@ def main() -> None:
         old.unlink()
     for theme, t in THEMES.items():
         suffix = "" if theme == "dark" else "-light"
-        for name, draw in (("elessar", elessar), ("volatility-engine", volatility), ("divider", divider)):
+        for name, draw in (("elessar", elessar), ("volatility-engine", volatility), ("pytorchgrind", pytorchgrind), ("divider", divider)):
             (OUT / f"{name}{suffix}.svg").write_text(draw(t), encoding="utf-8")
         for name, svg in badges(t).items():
             (OUT / f"{name}{suffix}.svg").write_text(svg, encoding="utf-8")
