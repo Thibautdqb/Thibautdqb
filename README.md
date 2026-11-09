@@ -48,6 +48,21 @@ target, the outliers and the time series, and writes an HTML report with the cod
 
 <div align="center">
 
+<a href="https://github.com/Thibautdqb/polymarket-rewards-archive"><picture><source media="(prefers-color-scheme: light)" srcset="assets/generated/polymarket-rewards-light.svg" /><img width="100%" src="assets/generated/polymarket-rewards.svg" alt="polymarket-rewards-archive: Polymarket reward-rate history" /></picture></a>
+
+the history of Polymarket liquidity rewards that Polymarket itself overwrites: every rate change on every
+rewarded market, recorded every five minutes since 8 November 2026. Backtest a market-making strategy against
+the rewards that were really paid, see where the reward budget moves, reconcile your daily payouts.
+
+**Want the data?** The live stream of rate changes and the full history so far are available:
+[open an issue](https://github.com/Thibautdqb/polymarket-rewards-archive/issues) with the markets, frequency and format you need.
+
+</div>
+
+<div align="center"><picture><source media="(prefers-color-scheme: light)" srcset="assets/generated/divider-light.svg" /><img width="100%" src="assets/generated/divider.svg" alt="" /></picture></div>
+
+<div align="center">
+
 <a href="https://github.com/Thibautdqb/volatility-engine"><picture><source media="(prefers-color-scheme: light)" srcset="assets/generated/volatility-engine-light.svg" /><img width="100%" src="assets/generated/volatility-engine.svg" alt="volatility-engine: five-minute volatility forecasts" /></picture></a>
 
 forecasts five-minute volatility, the probability
